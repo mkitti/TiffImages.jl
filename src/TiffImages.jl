@@ -33,6 +33,7 @@ include(joinpath("types", "dense.jl"))
 include(joinpath("types", "strided.jl"))
 include(joinpath("types", "lazy.jl"))
 include(joinpath("types", "mmapped.jl"))
+include(joinpath("types", "packedheader.jl"))
 include("load.jl")
 
 export memmap, LazyBufferedTIFF, ifds
